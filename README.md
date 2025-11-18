@@ -1,2 +1,2 @@
-# bikcraft-react
-Proposta de desenvolvimento de loja virtual
+# Bikcraft-react
+Proposta de desenvolvimento de loja virtual.
