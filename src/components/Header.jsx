@@ -3,7 +3,7 @@ const Header = ({
   children,
   backgroundColor, 
   color, 
-  paddingX
+  paddingX,
 }) => {
 
   const style = `

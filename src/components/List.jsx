@@ -2,7 +2,7 @@
 const List = ({
   children, 
   display, 
-  gap
+  gap,
 }) => {
 
   const style = `

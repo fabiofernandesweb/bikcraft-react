@@ -5,8 +5,10 @@ const Section = ({
   gap, 
   height, 
   paddingX, 
+  paddingT,
+  paddingB,
   backgroundColor, 
-  color
+  color,
 }) => {
 
   const style = `
@@ -14,6 +16,8 @@ const Section = ({
     ${gap}
     ${height}
     ${paddingX}
+    ${paddingT}
+    ${paddingB}
     ${backgroundColor}
     ${color}
   `;

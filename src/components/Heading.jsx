@@ -2,12 +2,14 @@
 const Heading = ({ 
   children, 
   fontSize, 
-  fontWeight 
+  fontWeight,
+  margin
 }) => {
 
   const style = `
     ${fontSize}
     ${fontWeight}
+    ${margin}
   `;
 
   return (

@@ -1,12 +1,19 @@
 
 const Image = ({
   source, 
-  alternative
+  alternative,
+  cursor,
+  borderRadius
 }) => {
+
+  const style = `
+    ${cursor}
+    ${borderRadius}
+  `;
 
   return (
     <>
-      <img src={source} alt={alternative} />
+      <img className={style} src={source} alt={alternative} />
     </>
   );
 }
