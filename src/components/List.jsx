@@ -3,11 +3,13 @@ const List = ({
   children, 
   display, 
   gap,
+  cursor
 }) => {
 
   const style = `
     ${display}
     ${gap}
+    ${cursor}
   `;
 
   return (

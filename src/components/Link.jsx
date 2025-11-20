@@ -5,18 +5,27 @@ const Link = ({
   fontSize, 
   fontWeight, 
   fontCase, 
+  color,
   letterSpace,
   hover,
-  transition
+  transition,
+  margin,
+  cursor,
+  underline
 }) => {
 
   const style = `
+    ${link}
     ${fontSize}
     ${fontWeight}
     ${fontCase}
     ${letterSpace}
+    ${color}
     ${hover}
     ${transition}
+    ${margin}
+    ${cursor}
+    ${underline}
   `;
 
   return (

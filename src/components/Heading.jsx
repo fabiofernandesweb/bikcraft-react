@@ -3,13 +3,23 @@ const Heading = ({
   children, 
   fontSize, 
   fontWeight,
-  margin
+  fontCase,
+  letterSpace,
+  color,
+  margin,
+  paddingX,
+  paddingT
 }) => {
 
   const style = `
     ${fontSize}
     ${fontWeight}
+    ${fontCase}
+    ${letterSpace}
+    ${color}
     ${margin}
+    ${paddingX}
+    ${paddingT}
   `;
 
   return (

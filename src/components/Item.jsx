@@ -1,11 +1,24 @@
 
 const Item = ({
   children,
+  display,
+  width,
+  list,
+  cursor,
+  fontCase
 }) => {
+
+  const style = `
+    ${display}
+    ${width}
+    ${list}
+    ${cursor}
+    ${fontCase}
+  `;
 
   return (
     <>
-      <li>{children}</li>
+      <li className={style}>{children}</li>
     </>
   );
 }

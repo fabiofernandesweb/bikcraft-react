@@ -3,12 +3,16 @@ const Image = ({
   source, 
   alternative,
   cursor,
-  borderRadius
+  borderRadius,
+  margin,
+  width
 }) => {
 
   const style = `
     ${cursor}
     ${borderRadius}
+    ${margin}
+    ${width}
   `;
 
   return (

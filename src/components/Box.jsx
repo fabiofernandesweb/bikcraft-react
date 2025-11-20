@@ -5,7 +5,9 @@ const Box = ({
   flexDirection, 
   justify, 
   gap, 
-  width 
+  width,
+  paddingX,
+  paddingY
 }) => {
 
   const style = `
@@ -14,6 +16,8 @@ const Box = ({
     ${justify}
     ${gap}
     ${width}
+    ${paddingX}
+    ${paddingY}
   `;
   return (
     <>

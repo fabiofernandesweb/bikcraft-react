@@ -2,12 +2,14 @@
 const Paragraph = ({
   text, 
   fontSize, 
-  color
+  color,
+  marginB
 }) => {
 
   const style = `
     ${fontSize}
     ${color}
+    ${marginB}
   `;
 
   return (
